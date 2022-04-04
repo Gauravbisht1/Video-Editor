@@ -1,5 +1,5 @@
 # Check Out Link
-<a href="my-video-editor.netlify.app" target="_blank">my-video-editor.netlify.app</a>
+<a href="https://my-video-editor.netlify.app/" target="_blank">https://my-video-editor.netlify.app/</a>
 
 
 # Getting Started with Create React App
