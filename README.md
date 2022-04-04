@@ -1,3 +1,7 @@
+# Check Out Link
+<a href="my-video-editor.netlify.app" target="_blank">my-video-editor.netlify.app</a>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
