@@ -1,0 +1,123 @@
+.home {
+  position: relative;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.buttons .h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first-block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.second-block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  margin: 1.5rem 2rem;
+  width: 180px;
+  height: 70px;
+  background-color: hsl(205, 78%, 60%);
+  color: white;
+  text-transform: capitalize;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  border-radius: 0.25rem;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: hsl(128, 67%, 70%);
+  color: hsl(180, 5%, 7%);
+}
+.posts {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.images {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.videos {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.merge-allvideo-btn {
+  position: fixed;
+  bottom: 1%;
+  right: 35%;
+  z-index: 9999;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(250, 144, 111);
+  color: black;
+  font-size: 0.8rem;
+  font-weight: 600;
+  user-select: none;
+  border: 2px solid black;
+  border-radius: 0.25rem;
+  letter-spacing: 0.1rem;
+  box-shadow: 1px 1px 1px black;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.merge-allvideo-btn:hover {
+  background: hsl(128, 67%, 70%);
+  color: hsl(180, 5%, 7%);
+}
+.clear-allvideo-btn {
+  position: fixed;
+  bottom: 1%;
+  left: 35%;
+  z-index: 9999;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(87, 243, 204);
+  color: black;
+  font-size: 0.8rem;
+  font-weight: 600;
+  user-select: none;
+  border: 2px solid black;
+  border-radius: 0.25rem;
+  letter-spacing: 0.1rem;
+  box-shadow: 1px 1px 1px black;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.clear-allvideo-btn:hover {
+  background: hsl(128, 67%, 70%);
+  color: hsl(180, 5%, 7%);
+}
+.download-video-btn {
+  position: fixed;
+  bottom: 1%;
+  right: 5%;
+  z-index: 9999;
+}

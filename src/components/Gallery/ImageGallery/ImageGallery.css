@@ -1,0 +1,20 @@
+.imagegallery {
+  display: flex;
+  justify-content: center;
+}
+.image-onefile {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.fileimage {
+  width: 450px;
+  height: 450px;
+  object-fit: contain;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+}

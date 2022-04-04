@@ -1,0 +1,11 @@
+.video-onefile {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.filevideo {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
